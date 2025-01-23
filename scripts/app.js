@@ -11,20 +11,16 @@ const sayHelloBtn = document.getElementById("sayHelloBtn");
 
 
 // Api Calls
-async function SayHelloCall() {
-    const promise = await fetch("");
-    const data = await promise.json();
+const SayHelloApi = async (userName) => {
+    const promise = await fetch(`https://thisall4oneapi-bbfxghbaeaegbuc3.westus-01.azurewebsites.net//SayHello/SayHello/${userName}`);
+    const data = await promise.text();
+    // console.log(data);
+    return data;
+};
 
-    console.log(data);
-
-}
 
 // Say Hello Button Event
-// sayHelloBtn.addEventListener("click", async () => {
+sayHelloBtn.addEventListener("click", async () => {
+    sayHelloText.textContent = await SayHelloApi(sayHelloInput.value);
 
-//     let sayHelloGet = await SayHelloCall();
-
-//     console.log(sayHelloGet);
-
-//     sayHelloText.innerText = 
-// });
+});
