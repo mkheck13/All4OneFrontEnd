@@ -1,48 +1,76 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="../src/output.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Sue+Ellen+Francisco&display=swap" rel="stylesheet">
-    <title>Document</title>
-</head>
-<body class="font-sue text-gray-300" style="background-image: url(../assets/darkwoodBG.png);">
-
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="../src/output.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Sue+Ellen+Francisco&display=swap"
+      rel="stylesheet"
+    />
+    <title>Greater Then, Less Then</title>
+  </head>
+  <body
+    class="font-sue text-gray-300"
+    style="background-image: url(../assets/darkwoodBG.png)"
+  >
     <!-- Header Start -->
     <header class="flex justify-center">
-            <h1 class="text-gray-300 font-sue text-9xl mt-6 flex justify-center">Greater Then, Less Then</h1>
-    <a href="../index.html">
-        <button type="button" class="focus:outline-none text-white bg-red-700 hover:bg-red-800 focus:ring-4 focus:ring-red-300 font-medium rounded-lg text-xl px-5 py-2.5 me-2 mb-2 dark:bg-red-600 dark:hover:bg-red-700 dark:focus:ring-red-900">Home</button>
+      <h1 class="text-gray-300 font-sue text-9xl mt-6 flex justify-center">
+        Greater Then, Less Then
+      </h1>
+      <a href="../index.html">
+        <button
+          type="button"
+          class="focus:outline-none text-white bg-red-700 hover:bg-red-800 focus:ring-4 focus:ring-red-300 font-medium rounded-lg text-xl px-5 py-2.5 me-2 mb-2 dark:bg-red-600 dark:hover:bg-red-700 dark:focus:ring-red-900"
+        >
+          Home
+        </button>
       </a>
     </header>
     <!-- Header End -->
 
     <!-- Main body that contains the text, input and buttons -->
     <main class="flex justify-center mt-16">
-        <div class="flex justify-center">
-                    <h1 id="greaterText" class="text-4xl">Please enter two numbers and press the button to get the total.</h1>
-        </div>
+      <div class="flex justify-center">
+        <h1 id="greaterText" class="text-4xl">
+          Please enter two numbers and press the button to get the total.
+        </h1>
+      </div>
 
+      <div class="flex justify-center">
+        <input
+          type="number"
+          id="numOneGreatInput"
+          class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500"
+          placeholder="Enter First Number"
+          required
+        />
 
-        <div class=" flex justify-center">
-            <input type="number" id="numOneGreatInput" class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500" placeholder="Enter First Number" required />
+        <input
+          type="number"
+          id="numTwoGreatInput"
+          class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500"
+          placeholder="Enter Second Number"
+          required
+        />
+      </div>
 
-            <input type="number" id="numTwoGreatInput" class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500" placeholder="Enter Second Number" required />
-        </div>
-
-
-
-        <div class=" flex justify-center">
-                    <button id="greaterThenBtn" type="button" class="focus:outline-none text-white bg-red-700 hover:bg-red-800 focus:ring-4 focus:ring-red-300 font-medium rounded-lg text-xl px-5 py-2.5 me-2 mb-2 dark:bg-red-600 dark:hover:bg-red-700 dark:focus:ring-red-900">Press Me</button>
-        </div>
-
+      <div class="flex justify-center">
+        <button
+          id="greaterThenBtn"
+          type="button"
+          class="focus:outline-none text-white bg-red-700 hover:bg-red-800 focus:ring-4 focus:ring-red-300 font-medium rounded-lg text-xl px-5 py-2.5 me-2 mb-2 dark:bg-red-600 dark:hover:bg-red-700 dark:focus:ring-red-900"
+        >
+          Press Me
+        </button>
+      </div>
     </main>
 
-    <!-- <script src="../path/to/flowbite/dist/flowbite.min.js"></script> -->
+
     <script src="https://cdn.jsdelivr.net/npm/flowbite@2.5.2/dist/flowbite.min.js"></script>
     <script src="../scripts/greaterthen.js"></script>
-</body>
+  </body>
 </html>
