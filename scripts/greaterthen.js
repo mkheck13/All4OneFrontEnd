@@ -6,8 +6,8 @@ const greaterThenBtn = document.getElementById("greaterThenBtn");
 
 // Greater Then, Less Then Api Call
 const GreaterThenApi = async (num1, num2) => {
-    // const promise =await fetch(`https://thisall4oneapi-bbfxghbaeaegbuc3.westus-01.azurewebsites.net/AddTwoNumbers/AddTwoNumbers/${num1}/${num2}`);
-    // const data = await promise.text();
+    const promise =await fetch(`https://thisall4oneapi-bbfxghbaeaegbuc3.westus-01.azurewebsites.net/GreaterThen/GreaterThen/${num1}/${num2}`);
+    const data = await promise.text();
     return data;
 };
 
