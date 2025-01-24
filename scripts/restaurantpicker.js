@@ -1,7 +1,9 @@
 // Restaurant Picker Id's
 const restaurantPickerText = document.getElementById("restaurantPickerText");
-const restaurantPickerInput = document.getElementById("restaurantPickerInput");
-const restaurantPickerBtn = document.getElementById("restaurantPickerBtn");
+const pizzaBtn = document.getElementById("pizzaBtn");
+const mexicanBtn = document.getElementById("mexicanBtn");
+const fastFoodBtn = document.getElementById("fastFoodBtn");
+
 
 // Restaurant Picker Api Call
 const RestaurantPickerApi = async (pizzaMexicanFastFood) => {
@@ -10,7 +12,21 @@ const RestaurantPickerApi = async (pizzaMexicanFastFood) => {
     return data;
 };
 
-// Restaurant Picker Button Event
-restaurantPickerBtn.addEventListener("click", async () => {
-    restaurantPickerText.textContent = await RestaurantPickerApi(restaurantPickerInput.value);
+// Restaurant Picker Button(s) Event
+pizzaBtn.addEventListener("click", () => {
+    RestaurantPickerApi("pizza").then(paramater => {
+        document.getElementById("restaurantPickerText").textContent = paramater;
+    });
+});
+
+mexicanBtn.addEventListener("click", () => {
+    RestaurantPickerApi("mexican").then(paramater => {
+        document.getElementById("restaurantPickerText").textContent = paramater;
+    });
+});
+
+fastFoodBtn.addEventListener("click", () => {
+    RestaurantPickerApi("fastfood").then(paramater => {
+        document.getElementById("restaurantPickerText").textContent = paramater;
+    });
 });
