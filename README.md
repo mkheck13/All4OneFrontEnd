@@ -27,6 +27,6 @@
 
 ## FeedBack/Peer Review: 
 
-**Reviewer:** "Name Here"
+**Reviewer:** "Chris Wells-Hott"
 
-**Comments:** "Comment Here"
+**Comments:** The Website works very well.Madlib mobile: Id recommend to add some more gap between the input fields. Restaurant picker mobile:Id recommend to center the buttons on the page. The code is overall clean. let me know if you have any questions 
