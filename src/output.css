@@ -1339,6 +1339,10 @@ input:checked + .toggle-bg {
   grid-template-columns: repeat(auto-fit,minmax(250px,1fr));
 }
 
+.flex-row {
+  flex-direction: row;
+}
+
 .place-content-center {
   place-content: center;
 }
@@ -1379,8 +1383,20 @@ input:checked + .toggle-bg {
   justify-content: space-between;
 }
 
+.justify-around {
+  justify-content: space-around;
+}
+
 .justify-evenly {
   justify-content: space-evenly;
+}
+
+.justify-stretch {
+  justify-content: stretch;
+}
+
+.justify-items-center {
+  justify-items: center;
 }
 
 .gap-4 {
