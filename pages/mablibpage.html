@@ -34,111 +34,112 @@
 
     <!-- Main body that contains the text, input and buttons -->
 
-    <main class="place-items-center mt-10">
-      <div  class="place-items-center mt-10">instruction</div>
-      <div  class="place-items-center mt-10">input, add more div if more inputs needed</div>
-      <div  class="place-items-center mt-10">Button</div>
-    </main>
-
-
-    <main class="flex justify-center mt-16">
-      <div class="flex justify-center">
+    <main class="">
+      <div  class="place-items-center mt-10">
         <h1 id="madlibText" class="text-4xl">
           Please fill in the fields and press the button to get a story.
         </h1>
       </div>
 
-      <div class="flex justify-center">
+      <div class="grid grid-cols-[repeat(auto-fit,minmax(250px,1fr))] place-items-center mt-10">
         <input
-          type="text"
-          id="madlib1Input"
-          class="bg-gray-50 border border-gray-300 text-gray-900 text-2xl w-52 rounded-lg focus:ring-blue-500 focus:border-blue-500 block  p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500"
-          placeholder="Age"
-          required
-        />
+        type="text"
+        id="madlib1Input"
+        class="bg-gray-50 border border-gray-300 text-gray-900 text-2xl w-52 rounded-lg focus:ring-blue-500 focus:border-blue-500 block  p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500"
+        placeholder="Age"
+        required
+      />
 
-        <input
-          type="text"
-          id="madlib2Input"
-          class="bg-gray-50 border border-gray-300 text-gray-900 text-2xl w-52 rounded-lg focus:ring-blue-500 focus:border-blue-500 block  p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500"
-          placeholder="Family Relation"
-          required
-        />
+      <input
+        type="text"
+        id="madlib2Input"
+        class="bg-gray-50 border border-gray-300 text-gray-900 text-2xl w-52 rounded-lg focus:ring-blue-500 focus:border-blue-500 block  p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500"
+        placeholder="Family Relation"
+        required
+      />
 
-        <input
-          type="text"
-          id="madlib3Input"
-          class="bg-gray-50 border border-gray-300 text-gray-900 text-2xl w-52 rounded-lg focus:ring-blue-500 focus:border-blue-500 block  p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500"
-          placeholder="Job"
-          required
-        />
+      <input
+        type="text"
+        id="madlib3Input"
+        class="bg-gray-50 border border-gray-300 text-gray-900 text-2xl w-52 rounded-lg focus:ring-blue-500 focus:border-blue-500 block  p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500"
+        placeholder="Job"
+        required
+      />
 
-        <input
-          type="text"
-          id="madlib4Input"
-          class="bg-gray-50 border border-gray-300 text-gray-900 text-2xl w-52 rounded-lg focus:ring-blue-500 focus:border-blue-500 block  p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500"
-          placeholder="Stage of Life"
-          required
-        />
+      <input
+        type="text"
+        id="madlib4Input"
+        class="bg-gray-50 border border-gray-300 text-gray-900 text-2xl w-52 rounded-lg focus:ring-blue-500 focus:border-blue-500 block  p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500"
+        placeholder="Stage of Life"
+        required
+      />
 
-        <input
-          type="text"
-          id="madlib5Input"
-          class="bg-gray-50 border border-gray-300 text-gray-900 text-2xl w-52 rounded-lg focus:ring-blue-500 focus:border-blue-500 block  p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500"
-          placeholder="An Object"
-          required
-        />
-
-        <input
-          type="text"
-          id="madlib6Input"
-          class="bg-gray-50 border border-gray-300 text-gray-900 text-2xl w-52 rounded-lg focus:ring-blue-500 focus:border-blue-500 block  p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500"
-          placeholder="Size"
-          required
-        />
-
-        <input
-          type="text"
-          id="madlib7Input"
-          class="bg-gray-50 border border-gray-300 text-gray-900 text-2xl w-52 rounded-lg focus:ring-blue-500 focus:border-blue-500 block  p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500"
-          placeholder="Human Settlement"
-          required
-        />
-
-        <input
-          type="text"
-          id="madlib8Input"
-          class="bg-gray-50 border border-gray-300 text-gray-900 text-2xl w-52 rounded-lg focus:ring-blue-500 focus:border-blue-500 block  p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500"
-          placeholder="Toy Brand"
-          required
-        />
-
-        <input
-          type="text"
-          id="madlib9Input"
-          class="bg-gray-50 border border-gray-300 text-gray-900 text-2xl w-52 rounded-lg focus:ring-blue-500 focus:border-blue-500 block  p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500"
-          placeholder="Profession"
-          required
-        />
-
-        <input
-          type="text"
-          id="madlib10Input"
-          class="bg-gray-50 border border-gray-300 text-gray-900 text-2xl w-52 rounded-lg focus:ring-blue-500 focus:border-blue-500 block  p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500"
-          placeholder="Celestial Body"
-          required
-        />
+      <input
+        type="text"
+        id="madlib5Input"
+        class="bg-gray-50 border border-gray-300 text-gray-900 text-2xl w-52 rounded-lg focus:ring-blue-500 focus:border-blue-500 block  p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500"
+        placeholder="An Object"
+        required
+      />
       </div>
-      <div class="flex justify-center">
-        <button
+
+      <div class="grid grid-cols-[repeat(auto-fit,minmax(250px,1fr))] place-items-center mt-10">
+        <input
+        type="text"
+        id="madlib6Input"
+        class="bg-gray-50 border border-gray-300 text-gray-900 text-2xl w-52 rounded-lg focus:ring-blue-500 focus:border-blue-500 block  p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500"
+        placeholder="Size"
+        required
+      />
+
+      <input
+        type="text"
+        id="madlib7Input"
+        class="bg-gray-50 border border-gray-300 text-gray-900 text-2xl w-52 rounded-lg focus:ring-blue-500 focus:border-blue-500 block  p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500"
+        placeholder="Human Settlement"
+        required
+      />
+
+      <input
+        type="text"
+        id="madlib8Input"
+        class="bg-gray-50 border border-gray-300 text-gray-900 text-2xl w-52 rounded-lg focus:ring-blue-500 focus:border-blue-500 block  p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500"
+        placeholder="Toy Brand"
+        required
+      />
+
+      <input
+        type="text"
+        id="madlib9Input"
+        class="bg-gray-50 border border-gray-300 text-gray-900 text-2xl w-52 rounded-lg focus:ring-blue-500 focus:border-blue-500 block  p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500"
+        placeholder="Profession"
+        required
+      />
+
+      <input
+        type="text"
+        id="madlib10Input"
+        class="bg-gray-50 border border-gray-300 text-gray-900 text-2xl w-52 rounded-lg focus:ring-blue-500 focus:border-blue-500 block  p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500"
+        placeholder="Celestial Body"
+        required
+      />
+      </div>
+
+      <div class="place-items-center mt-10">
+        <div class="place-items-center mt-10">
+          <button
           id="madlibBtn"
           type="button"
           class="w-52 text-2xl focus:outline-none text-white bg-red-700 hover:bg-red-800 focus:ring-4 focus:ring-red-300 font-medium rounded-lg  px-5 py-2.5 me-2 mb-2 dark:bg-red-600 dark:hover:bg-red-700 dark:focus:ring-red-900"
         >
           Press Me
         </button>
+        </div>
       </div>
+
+
     </main>
+
 
 
     <script src="https://cdn.jsdelivr.net/npm/flowbite@2.5.2/dist/flowbite.min.js"></script>
