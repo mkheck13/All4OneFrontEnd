@@ -1123,6 +1123,16 @@ input:checked + .toggle-bg {
   z-index: 50;
 }
 
+.mx-20 {
+  margin-left: 5rem;
+  margin-right: 5rem;
+}
+
+.my-20 {
+  margin-top: 5rem;
+  margin-bottom: 5rem;
+}
+
 .mb-1 {
   margin-bottom: 0.25rem;
 }
