@@ -18,13 +18,15 @@
   >
     <!-- Header Start -->
     <header class="flex justify-evenly place-items-center">
-      <h1 class="text-gray-300 font-sue text-5xl  my-20 flex justify-center md:text-9xl sm:text-7xl">
+      <h1
+        class="text-gray-300 font-sue text-5xl my-20 flex justify-center md:text-9xl sm:text-7xl"
+      >
         Add Two Numbers
       </h1>
       <a href="../index.html">
         <button
           type="button"
-          class="w-52 text-2xl focus:outline-none text-white bg-red-700 hover:bg-red-800 focus:ring-4 focus:ring-red-300 font-medium rounded-lg  px-5 py-2.5 me-2 mb-2 dark:bg-red-600 dark:hover:bg-red-700 dark:focus:ring-red-900"
+          class="w-52 text-2xl focus:outline-none text-white bg-red-700 hover:bg-red-800 focus:ring-4 focus:ring-red-300 font-medium rounded-lg px-5 py-2.5 me-2 mb-2 dark:bg-red-600 dark:hover:bg-red-700 dark:focus:ring-red-900"
         >
           Home
         </button>
@@ -33,42 +35,41 @@
     <!-- Header End -->
 
     <!-- Main body that contains the text, input and buttons -->
-    <main class="flex justify-center mt-16">
-      <div class="flex justify-center">
+
+    <main class="place-items-center mt-10">
+      <div class="place-items-center mt-10">
         <h1 id="addNumText" class="text-4xl">
           Please enter two numbers and press the button to get the total.
         </h1>
       </div>
-
-      <div class="flex justify-center">
+      <div class="place-items-center mt-10">
         <input
           type="number"
           id="numOneInput"
-          class="bg-gray-50 border border-gray-300 text-gray-900 text-2xl w-52 rounded-lg focus:ring-blue-500 focus:border-blue-500 block  p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500"
+          class="bg-gray-50 border border-gray-300 text-gray-900 text-2xl w-52 rounded-lg focus:ring-blue-500 focus:border-blue-500 block p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500"
           placeholder="Enter First Number"
           required
         />
-
+      </div>
+      <div class="place-items-center mt-10">
         <input
           type="number"
           id="numTwoInput"
-          class="bg-gray-50 border border-gray-300 text-gray-900 text-2xl w-52 rounded-lg focus:ring-blue-500 focus:border-blue-500 block  p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500"
+          class="bg-gray-50 border border-gray-300 text-gray-900 text-2xl w-52 rounded-lg focus:ring-blue-500 focus:border-blue-500 block p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500"
           placeholder="Enter Second Number"
           required
         />
       </div>
-
-      <div class="flex justify-center">
+      <div class="place-items-center mt-10">
         <button
           id="add2NumBtn"
           type="button"
-          class="w-52 text-2xl focus:outline-none text-white bg-red-700 hover:bg-red-800 focus:ring-4 focus:ring-red-300 font-medium rounded-lg  px-5 py-2.5 me-2 mb-2 dark:bg-red-600 dark:hover:bg-red-700 dark:focus:ring-red-900"
+          class="w-52 text-2xl focus:outline-none text-white bg-red-700 hover:bg-red-800 focus:ring-4 focus:ring-red-300 font-medium rounded-lg px-5 py-2.5 me-2 mb-2 dark:bg-red-600 dark:hover:bg-red-700 dark:focus:ring-red-900"
         >
           Press Me
         </button>
       </div>
     </main>
-
 
     <script src="https://cdn.jsdelivr.net/npm/flowbite@2.5.2/dist/flowbite.min.js"></script>
     <script src="../scripts/add2num.js"></script>
